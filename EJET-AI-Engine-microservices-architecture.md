@@ -24,6 +24,8 @@ The platform is composed of five independently deployable services, each owning 
 
 ## 2. High-level architecture
 <img width="2720" height="2120" alt="high_level_architecture_v2" src="https://github.com/user-attachments/assets/ff0994bc-51de-4e53-bbad-5e690e676858" />
+<img width="1556" height="737" alt="image" src="https://github.com/user-attachments/assets/88ed5074-7252-4b6f-bcc2-89326b49f1a4" />
+
 
 ```mermaid
 flowchart TD
