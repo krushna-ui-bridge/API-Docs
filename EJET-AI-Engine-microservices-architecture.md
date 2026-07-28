@@ -1,4 +1,4 @@
-# LMS platform — microservices architecture & inter-service communication
+# EJET-microservices architecture & inter-service communication
 
 ## 1. Overview
 
