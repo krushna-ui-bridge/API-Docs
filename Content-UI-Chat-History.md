@@ -549,3 +549,133 @@ improves maintainability, and provides a clear path for supporting additional ed
 
 ### Design:
 <img width="2560" height="3574" alt="Image" src="https://github.com/user-attachments/assets/05cd5d61-e83b-45da-b7a5-4f69088fe680" />
+
+### Final history Response:
+
+```
+[
+  {
+    "role": "user",
+    "text": "Generate 2 quiz"
+  },
+  {
+    "role": "assistant",
+    "request": {
+      "prompt": "Generate 2 quiz",
+      "type": "quiz",
+      "count": 2
+    },
+    "items": [
+      {
+        "id": "9c9be0e6-a093-46d1-80bf-bc8a58d30b54",
+        "type": "quiz",
+        "title": null,
+        "question": "In Java's constructor chaining, what is the sequence of constructor invocation when a subclass object is created?",
+        "difficulty": "basic",
+        "edited": false,
+        "metadata": {
+          "quizType": "MCQ",
+          "options": [
+            "The subclass constructor executes first, then implicitly calls the superclass constructor.",
+            "The superclass constructor is always explicitly called by the subclass constructor first.",
+            "The superclass constructor executes first (either explicitly or implicitly), followed by the subclass constructor.",
+            "Constructors are called simultaneously for both superclass and subclass.",
+            "Only the subclass constructor is invoked, unless `super()` is explicitly used."
+          ],
+          "correctAnswers": [
+            "The superclass constructor executes first (either explicitly or implicitly), followed by the subclass constructor."
+          ],
+          "explanation": "The notebook states: 'When a subclass object is created, Java automatically calls the superclass constructor first (either explicitly using super(), or implicitly if no call is written) before executing the subclass constructor body.' This establishes the correct sequence of invocation."
+        }
+      },
+      {
+        "id": "17f98fbb-769e-4c51-a1e8-901386229af6",
+        "type": "quiz",
+        "title": null,
+        "question": "Which of the following statements are true about method overloading in Java?",
+        "difficulty": "basic",
+        "edited": false,
+        "metadata": {
+          "quizType": "MSQ",
+          "options": [
+            "Method overloading occurs when multiple methods in the same class have different names but the same parameters.",
+            "Overloaded methods must have the same return type.",
+            "Method overloading is a form of compile-time polymorphism.",
+            "Overloaded methods must differ in the number, type, or order of their parameters.",
+            "The `@Override` annotation is mandatory for overloaded methods."
+          ],
+          "correctAnswers": [
+            "Method overloading is a form of compile-time polymorphism.",
+            "Overloaded methods must differ in the number, type, or order of their parameters."
+          ],
+          "explanation": "The notebook defines method overloading as occurring when multiple methods in the same class share the same name but differ in the number, type, or order of parameters."
+        }
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "text": "Generate 1 coding question"
+  },
+  {
+    "role": "assistant",
+    "request": {
+      "prompt": "Generate 1 coding question",
+      "type": "coding_problem",
+      "count": 1
+    },
+    "items": [
+      {
+        "id": "4e58b16c-2404-472b-b745-c99d1d7b1cf5",
+        "type": "coding_problem",
+        "title": "Multilevel Animal Hierarchy with Constructor Chaining and Method Overriding",
+        "question": "Design a Java program to model a multilevel animal hierarchy, demonstrating constructor chaining and method overriding across different levels.",
+        "difficulty": "basic",
+        "edited": false,
+        "metadata": {
+          "instructions": "1. Define a superclass Animal with a constructor that takes a String name and prints 'Animal: [name] created'. 2. Create a subclass Mammal that extends Animal. 3. Create a subclass Dog that extends Mammal. 4. Instantiate Dog in Main. 5. Call speak(). 6. Verify constructor chaining and method overriding.",
+          "topics": [
+            "Inheritance",
+            "Multilevel Inheritance",
+            "Constructor Chaining",
+            "super keyword",
+            "Method Overriding"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "text": "Generate 1 concept question"
+  },
+  {
+    "role": "assistant",
+    "request": {
+      "prompt": "Generate 1 concept question",
+      "type": "concept_question",
+      "count": 1
+    },
+    "items": [
+      {
+        "id": "521fbd8d-f8c8-4c74-9515-b7435f8f406d",
+        "type": "concept_question",
+        "title": "IS-A vs. CAN-DO Relationships in Design",
+        "question": "Explain how the 'IS-A' and 'CAN-DO' relationships serve as guiding principles for structuring a Java application, particularly when deciding whether to use class extension (extends) or interface implementation (implements). Provide an example of a class that demonstrates both types of relationships.",
+        "difficulty": "basic",
+        "edited": false,
+        "metadata": {
+          "topics": [
+            "IS-A relationship",
+            "CAN-DO relationship",
+            "Inheritance",
+            "Interfaces",
+            "Design"
+          ]
+        }
+      }
+    ]
+  }
+]
+
+```
